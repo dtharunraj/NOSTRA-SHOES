@@ -1,24 +1,37 @@
-NOSTRA SHOES - Medium Level Ecommerce UI
 
-Files:
-- index.html
-- style.css
-- script.js
-- images/
+**Tharun Raj**
 
-Features:
-- Responsive mobile menu
-- Responsive layout
-- Hero section
-- Brands
-- Customer experience
-- New arrivals
-- Most wanted products
-- Hover actions on products
-- Limited offer
-- Newsletter interaction
-- Footer
+## 📌 Project
 
-Open index.html with VS Code Live Server.
+Nostra Shoes - E-commerce Website
 
-The SVG files in images/ are local placeholder shoe illustrations, so the project works without downloading external images.
+## 🚀 Features
+
+- 🏠 Home page
+- 👟 Shoe collection
+- 🎨 Color-based product filtering
+- 🔍 Product search
+- 📱 Responsive design
+- 📝 Registration form
+- 🖼️ Multiple shoe products
+- 🎯 Simple and user-friendly interface
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
+
+## 📱 Responsive Design
+
+The website is designed to work on:
+
+- 💻 Desktop
+- 📱 Mobile
+- 📲 Tablet
+
+## 🔗 Links
+
+- 📁 **GitHub Repository:** https://github.com/dtharunraj/NOSTRA-SHOES
+- 🌐 **Live Website:** https://dtharunraj.github.io/NOSTRA-SHOES/
