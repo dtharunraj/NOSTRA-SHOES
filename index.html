@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra Shoes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+    <!-- Offer Bar -->
+    <div id="offerBar" class="offer-bar">
+
+    <span>
+        Sign Up and Get 20% OFF on Your First Order
+    </span>
+
+    <button id="closeOffer" class="close-offer">✕
+    </button>
+
+</div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">SEVEN SOLE</h1>
+
+        <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+
+        <div class="desktop-menu">
+            <a href="#home">Home</a>
+            <a href="#new">New Arrivals</a>
+            <a href="#collection">Collection</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#new">New Arrivals</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#register">Register</a>
+    </div>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="uppercase tracking-widest text-sm">New Season • New Steps</p>
+            <h2>Step Into Your Style</h2>
+            <p class="hero-text">
+                Discover modern sneakers designed for comfort,
+                everyday style and every journey.
+            </p>
+            <a href="#new" class="primary-btn">Shop Now</a>
+        </div>
+
+       <div class="hero-slider">
+
+    <img src="mahi.jpg" class="hero-slide active" alt="Shoe">
+
+    <img src="images/download (1).jpg" class="hero-slide" alt="Shoe">
+
+</div>
+    </section>
+
+    <!-- Brands -->
+    <section class="section">
+        <h2 class="section-title">Popular Brands</h2>
+
+        <div class="brand-grid">
+            <div class="brand-card">NIKE</div>
+            <div class="brand-card">ADIDAS</div>
+            <div class="brand-card">PUMA</div>
+            <div class="brand-card">REEBOK</div>
+        </div>
+    </section>
+
+    <!-- Customer Experience -->
+    <section id="about" class="section soft-bg">
+        <div class="section-heading">
+            <h2 class="section-title">We Provide Best Customer Experience</h2>
+            <p>Quality footwear and a simple shopping experience.</p>
+        </div>
+
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="icon">✓</div>
+                <h3>Quality Products</h3>
+                <p>Comfortable shoes made for everyday use.</p>
+            </div>
+
+            <div class="experience-card">
+                <div class="icon">★</div>
+                <h3>Premium Comfort</h3>
+                <p>Designed to keep your steps comfortable.</p>
+            </div>
+
+            <div class="experience-card">
+                <div class="icon">↗</div>
+                <h3>Latest Styles</h3>
+                <p>Fresh designs for modern streetwear.</p>
+            </div>
+
+            <div class="experience-card">
+                <div class="icon">→</div>
+                <h3>Fast Delivery</h3>
+                <p>Get your favourite pair delivered quickly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section id="new" class="section">
+        <div class="section-row">
+            <h2 class="section-title">New Arrivals</h2>
+            <a href="#collection" class="view-link">View All →</a>
+        </div>
+
+        <div class="product-grid four">
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag">NEW</span>
+                    <img src="c:\Users\acer\Downloads\puma3.jpg" alt="Black Runner">
+                    <div class="hover-actions">
+                        
+                    </div>
+                </div>
+                <h3>Black Runner</h3>
+                <p>Everyday Sneakers</p>
+                <div class="price-row"><span>₹1,499</span><span>★★★★★</span></div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag"ima>NEW</span>
+                    <img src="c:\Users\acer\Downloads\puma4.jpg" alt="White Street">
+                    <div class="hover-actions">
+                        
+                    </div>
+                </div>
+                <h3>White Street</h3>
+                <p>Casual Sneakers</p>
+                <div class="price-row"><span>₹1,699</span><span>★★★★☆</span></div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag">NEW</span>
+                    <img src="c:\Users\acer\Downloads\puma5.jpg" alt="Sport Pro">
+                    <div class="hover-actions">
+                       
+                    </div>
+                </div>
+                <h3>Sport Pro</h3>
+                <p>Running Shoes</p>
+                <div class="price-row"><span>₹1,899</span><span>★★★★★</span></div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag">NEW</span>
+                    <img src="c:\Users\acer\Downloads\puma6.jpg" alt="Urban Walk">
+                    <div class="hover-actions">
+                       
+                    </div>
+                </div>
+                <h3>Urban Walk</h3>
+                <p>Daily Sneakers</p>
+                <div class="price-row"><span>₹1,799</span><span>★★★★☆</span></div>
+            </article>
+        </div>
+    </section>
+
+   <!-- MOST WANTED -->
+<!-- COLLECTION -->
+
+<section id="collection" class="collection">
+
+    <!-- LEFT SIDE -->
+
+    <div class="filter">
+
+        <h2>Colors</h2>
+
+        <label>
+            <input type="checkbox" class="color-filter" value="white">
+            White
+        </label>
+
+        <label>
+            <input type="checkbox" class="color-filter" value="black">
+            Black
+        </label>
+
+        <label>
+            <input type="checkbox" class="color-filter" value="blue">
+            Blue
+        </label>
+
+        <label>
+            <input type="checkbox" class="color-filter" value="green">
+            Green
+        </label>
+
+    </div>
+
+
+    <!-- RIGHT SIDE -->
+
+    <div class="collection-products">
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="shoeSearch"
+                placeholder="Search"
+            >
+        </div>
+
+
+        <div class="shoe-grid">
+
+
+            <!-- SHOE 1 -->
+
+            <div class="shoe-card" data-color="white">
+
+                <img src="c:\Users\acer\Downloads\shoe12.jpg" alt="White Shoe">
+
+                <h3>White Runner</h3>
+
+                <p>₹1499</p>
+
+            </div>
+
+
+            <!-- SHOE 2 -->
+
+            <div class="shoe-card" data-color="black">
+
+                <img src="images/puma5.jpg" alt="Blue Shoe">
+
+                <h3>Blue Runner</h3>
+
+                <p>₹1599</p>
+
+            </div>
+
+
+            <!-- SHOE 3 -->
+
+            <div class="shoe-card" data-color="blue">
+
+                <img src="images/puma10.jpg" alt="Blue Shoe">
+
+                <h3>Blue Sport</h3>
+
+                <p>₹1699</p>
+
+            </div>
+
+
+            <!-- SHOE 4 -->
+
+            <div class="shoe-card" data-color="green">
+
+                <img src="images/adidas shoes.jpg" alt="Green Shoe">
+
+                <h3>Green Flex</h3>
+
+                <p>₹1799</p>
+
+            </div>
+
+
+            <!-- SHOE 5 -->
+
+            <div class="shoe-card" data-color="black">
+
+                <img src="c:\Users\acer\Downloads\shoe4.jpg" alt="Black Casual Shoe">
+
+                <h3>Black Classic</h3>
+
+                <p>₹1399</p>
+
+            </div>
+
+
+            <!-- SHOE 6 -->
+
+            <div class="shoe-card" data-color="white">
+
+                <img src="puma6.jpg" alt="White Casual Shoe">
+
+                <h3>White Classic</h3>
+
+                <p>₹1499</p>
+
+            </div>
+
+
+            <!-- SHOE 7 -->
+
+            <div class="shoe-card" data-color="blue">
+
+                <img src="c:\Users\acer\Downloads\neek01.jpg" alt="Blue Training Shoe">
+
+                <h3>Blue Training</h3>
+
+                <p>₹1899</p>
+
+            </div>
+
+
+            <!-- SHOE 8 -->
+
+            <div class="shoe-card" data-color="green">
+
+                <img src="c:\Users\acer\Downloads\neek02.jpg" alt="Green Training Shoe">
+
+                <h3>Green Sport</h3>
+
+                <p>₹1799</p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Limited Offer -->
+
+        <section class="offer-section">
+        <div>
+            <p class="uppercase tracking-widest">Limited Time Offer</p>
+            <h2>35% OFF</h2>
+            <p>Upgrade your shoe collection before the offer ends.</p>
+            <a href="#new" class="light-btn">Shop Collection</a>
+        </div>
+        <img src="c:\Users\acer\Downloads\puma11.jpg" alt="Limited offer shoe">
+    </section>
+
+    <!-- Newsletter -->
+    <section id="contact" class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <p>Get updates about new arrivals and special offers.</p>
+
+        <form id="newsletterForm" class="newsletter-form">
+            <input id="email" type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+        <p id="message" class="message"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <h2>NOSTRA</h2>
+            <p>“Built for the game. Made for every move. 👟🔥
+Sport-ready shoes for speed, comfort & performance. 🏆”</p>
+        </div>
+
+        <div>
+            <h3>CLICK AND GO</h3>
+            <a href="#home">Home</a>
+            <a href="#new">New Arrivals</a>
+            <a href="#collection">Collection</a>
+        </div>
+
+        <div>
+            <h3>CONTACT</h3>
+            <p>dtharunrajd@gmail.com</p>
+            <p>+919876543210</p>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        © 2026 Nostra Shoes. All Rights Reserved.
+    </div>
+
+    <script src="script.js"></script>
+    <section id="register" class="register-section">
+
+    <div class="register-box">
+
+        <h2>Register</h2>
+
+        <form id="registerForm">
+
+            <input type="text" placeholder="Name" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <input type="password" placeholder="Password" required>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </div>
+
+</section>
+</body>
+</html>
